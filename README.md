@@ -24,6 +24,6 @@ kao2 and typescript3 learning
 
 ### 学习日记 ###
 
-01、[day01](https://www.163.com)
+01、[day01](https://github.com/omiomi/koaAndTs/blob/dev/markdown/day01.md)
 02、[day01](https://www.163.com)
 03、
