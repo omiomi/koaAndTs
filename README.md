@@ -21,7 +21,9 @@ kao2 and typescript3 learning
 
 ## 问题 ##
 工程可能在 windows 下运行存在问题。[typescript](https://github.com/NervJS/taro/issues/3941)。 
-### 解决方案 ###
-1、
-2、
-3、
+
+### 学习日记 ###
+
+01、[day01](https://www.163.com)
+02、[day01](https://www.163.com)
+03、
