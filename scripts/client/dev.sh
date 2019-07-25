@@ -1,2 +1,2 @@
-## 生产环境 ##
+## 开发环境 ##
 webpack --mode development

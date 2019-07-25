@@ -4,8 +4,8 @@
   "description": "koa base on typescript",
   "main": "app.js",
   "scripts": {
-    "client:dev":"scripty",
-    "client:prod":"scripty"
+    "client:dev": "scripty",
+    "client:prod": "scripty"
   },
   "keywords": [
     "koa",
@@ -25,8 +25,13 @@
     "koa-static": "^3.0.0"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "path": "^0.12.7",
     "scripty": "^1.9.1",
+    "typescript": "^3.5.3",
     "webpack": "^4.37.0",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.6",
+    "webpack-merge": "^4.2.1",
+    "yargs-parser": "^13.1.1"
   }
 }
