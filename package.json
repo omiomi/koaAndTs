@@ -1,0 +1,32 @@
+{
+  "name": "KoaAndTS",
+  "version": "1.0.0",
+  "description": "koa base on typescript",
+  "main": "app.js",
+  "scripts": {
+    "client:dev":"scripty",
+    "client:prod":"scripty"
+  },
+  "keywords": [
+    "koa",
+    "typescript"
+  ],
+  "author": "omiomi",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.0.1",
+    "koa-bodyparser": "^4.0.0",
+    "koa-csrf": "^3.0.4",
+    "koa-log4": "^2.2.0",
+    "koa-mount": "^2.0.0",
+    "koa-nunjucks-promise": "^1.1.1",
+    "koa-router": "next",
+    "koa-session2": "^2.1.1",
+    "koa-static": "^3.0.0"
+  },
+  "devDependencies": {
+    "scripty": "^1.9.1",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
