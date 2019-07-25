@@ -23,7 +23,7 @@ kao2 and typescript3 learning
 工程可能在 windows 下运行存在问题。[typescript](https://github.com/NervJS/taro/issues/3941)。 
 
 ### 学习日记 ###
-
+.sh文件需要添加执行权限 chmod +x "/Users/hujianmei/Documents/omi/TS/koaAndTs/scripts/client/dev.sh"
 01、[day01](https://github.com/omiomi/koaAndTs/blob/dev/markdown/day01.md)
 02、[day01](https://www.163.com)
 03、

@@ -9,6 +9,7 @@ console.log("🍎",argv);
 const {
     resolve
 } = require("path")
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const webpackConfig = {
     // Currently we need to add '.ts' to the resolve.extensions array.
@@ -28,7 +29,11 @@ const webpackConfig = {
         }]
     },
     plugins: [
-        new CheckerPlugin()
+        new CheckerPlugin(),
+        new HtmlWebpackPlugin({  // Also generate a test.html
+            filename: 'test.html',
+            template: 'src/web/index.html'
+          })
     ]
 }
 module.exports = merge(webpackConfig, _mergeConfig)
