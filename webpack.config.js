@@ -31,7 +31,7 @@ const webpackConfig = {
     plugins: [
         new CheckerPlugin(),
         new HtmlWebpackPlugin({  // Also generate a test.html
-            filename: 'test.html',
+            filename: 'index.html',
             template: 'src/web/index.html'
           })
     ]
