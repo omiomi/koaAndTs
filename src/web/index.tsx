@@ -1,17 +1,4 @@
-interface WY {
-    str: string
-}
-class Index {
-    private data;
-    constructor(data: WY) {
-        this.data = data.str;
-    }
-    log() {
-        console.log(this.data);
-    }
-
-}
-const index = new Index({
-    str : "🚘 WY"
-})
-index.log();
+import * as React from "react"
+import * as ReactDom from "react-dom"
+import App from "../web/pages/App";
+ReactDom.render(<App/>,document.getElementById("App"));

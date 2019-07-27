@@ -5,6 +5,7 @@ const WebpackBuildNotifierPlugin = require('webpack-build-notifier');
 module.exports={
     devServer:{
         contentBase:join(__dirname,"../dist"),
+        historyApiFallback:true,
         quiet: true,
         hot:true
     },
